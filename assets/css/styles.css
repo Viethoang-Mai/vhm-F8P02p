@@ -366,3 +366,148 @@ a {
 .feature .list .item:first-child .desc {
     width: 168px;
 }
+/* Popular */
+.popular .row {
+    margin-top: 166px;
+}
+.popular .row .title {
+    position: relative;
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 1.5;
+    color: #0d1111;
+}
+
+.popular .row .title::before {
+    position: absolute;
+    left: 0;
+    top: -23px;
+    width: 87px;
+    height: 18px;
+    content: "C  O  U  R  S  E  S";
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #767e7e;
+}
+.popular .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular .info .desc {
+    width: 525px;
+    margin-top: 19px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: #767e7e;
+}
+.popular .info .view-course {
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-decoration-line: underline;
+    color: #1ebfc1;
+}
+
+.popular .list {
+    margin-top: 79px;
+    display: flex;
+    gap: 47px;
+}
+.popular .item {
+    position: relative;
+}
+
+.popular .list .img {
+    background: #fff;
+    border-radius: 8px;
+}
+.popular .list .img img {
+    object-fit: cover;
+    width: 359px;
+    height: 393px;
+    opacity: 0.8;
+    border-radius: 8px;
+}
+
+.popular .item .cost {
+    position: absolute;
+    left: 17px;
+    bottom: -124px;
+    width: 325px;
+    height: 195px;
+    padding: 18px 25px 29px;
+    background: #ffffff;
+    box-shadow: 0px 16px 90px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.popular .cost .title {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 1.5;
+    color: #0d1111;
+}
+
+.popular .cost .strong {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #767e7e;
+}
+.popular .cost strong {
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: #0d1111;
+}
+
+.popular .cost .desc {
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #9da6a5;
+}
+
+.popular .cost .row-bt {
+    margin-top: 18px;
+    display: flex;
+    gap: 10px;
+}
+.popular .cost .row-bt p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #9da6a5;
+}
+/* stat */
+
+.stat {
+    margin-top: 265px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 862px;
+    height: 131px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat .figure {
+    text-align: center;
+}
+
+.stat .figure p:first-child {
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 1.5;
+    color: #0d1111;
+}
+
+.stat .figure p:last-child {
+    margin-top: 11px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #767e7e;
+}
