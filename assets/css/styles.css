@@ -98,6 +98,7 @@ a {
 /* Hero */
 
 .hero {
+    padding-bottom: 79px;
     margin-top: 40px;
     display: flex;
 }
@@ -272,4 +273,96 @@ a {
     font-weight: 500;
     font-size: 1rem;
     color: #ffffff;
+}
+/* Feature */
+
+.feature {
+    width: 1024px;
+    margin-top: 166px;
+}
+
+.feature .info {
+    width: 590px;
+}
+.feature .info .title {
+    position: relative;
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 1.33;
+    color: #0d1111;
+}
+.feature .info .title::before {
+    position: absolute;
+    width: 95px;
+    height: 18px;
+    left: 0;
+    top: -31px;
+    content: "F  E  A  T  U  R  E  S";
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #767e7e;
+}
+
+.feature .info .desc {
+    margin-top: 18px;
+    font-size: 18px;
+    line-height: 2.7rem;
+    color: #767e7e;
+}
+
+.feature .list {
+    display: flex;
+    margin-top: 80px;
+    /* justify-content: space-between; */
+}
+
+.feature .list .item:first-child {
+    width: 37%;
+}
+.feature .list .item:nth-child(2) {
+    width: 41%;
+}
+
+.feature .list .img-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 102px;
+    height: 106px;
+    border-radius: 18px;
+}
+.feature .list .item {
+}
+
+.feature .item:first-child .img-icon {
+    background: #ffc147;
+}
+
+.feature .item:nth-child(2) .img-icon {
+    background: #ff947a;
+}
+
+.feature .item:last-child .img-icon {
+    background: #bf83ff;
+}
+
+.feature .list .item .sub {
+    margin-top: 26px;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #0d1111;
+}
+.feature .list .item .desc {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.69;
+    color: #9da6a5;
+}
+
+.feature .list .item .desc {
+    width: 223px;
+}
+.feature .list .item:first-child .desc {
+    width: 168px;
 }
