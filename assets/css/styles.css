@@ -420,15 +420,22 @@ a {
 }
 
 .popular .list .img {
-    background: #fff;
+    background-color: #d0efed;
     border-radius: 8px;
+    overflow: hidden;
 }
 .popular .list .img img {
     object-fit: cover;
     width: 359px;
     height: 393px;
-    opacity: 0.8;
+    opacity: 0.7;
     border-radius: 8px;
+    cursor: pointer;
+    transition: 0.7s ease-in-out;
+}
+.popular .list .img img:hover {
+    opacity: 1;
+    transform: scale(1.15);
 }
 
 .popular .item .cost {
