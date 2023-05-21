@@ -7,7 +7,6 @@ html {
 }
 
 body {
-    height: 5000px;
     font-family: "Poppins", sans-serif;
     font-size: 1.6rem;
     user-select: none;
@@ -331,8 +330,6 @@ a {
     height: 106px;
     border-radius: 18px;
 }
-.feature .list .item {
-}
 
 .feature .item:first-child .img-icon {
     background: #ffc147;
@@ -647,7 +644,6 @@ a {
 .admit {
     padding: 76px 0 88px;
     margin-top: 130px;
-    width: 100vw;
     background: #def6f5;
 }
 .admit .row {
@@ -669,4 +665,65 @@ a {
     font-size: 1.8rem;
     line-height: 1.5;
     color: #767e7e;
+}
+
+/* footer */
+.footer {
+    padding: 131px 0 50px;
+}
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .row .logo-foot {
+    margin-right: 144px;
+}
+
+.footer .row .column {
+    width: 22%;
+}
+
+.footer .row .column:last-child {
+    width: 10%;
+    margin-left: auto;
+}
+
+.footer .row .column .title:not(.column:last-child .title) {
+    margin-bottom: 26px;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #2e2e2e;
+}
+
+.footer .row .item {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #535353;
+}
+
+.footer .row .item .sympol {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.footer .row .item .sympol img {
+    object-fit: cover;
+}
+
+.footer .row .column a {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #535353;
+}
+
+.footer .copy-right {
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #b0b5b4;
 }
